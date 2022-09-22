@@ -10,10 +10,10 @@ export const DimensionsScreen = () => {
       <View style={styles.container}>
         <View style={{ ...styles.cajaMorada, width: width * 0.5 }} />
         <View style={styles.cajaNaranja} />
-        <Text style={styles.title}>
-          W: {width}, H: {height}
-        </Text>
       </View>
+      <Text style={styles.title}>
+        W: {width}, H: {height}
+      </Text>
     </View>
   );
 };
